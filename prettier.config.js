@@ -1,0 +1,22 @@
+module.exports = {
+  trailingComma: 'all',
+  tabWidth: 2,
+  semi: false,
+  singleQuote: true,
+  useTabs: false,
+  jsxSingleQuote: false,
+  arrowParens: 'avoid',
+  bracketSpacing: false,
+  printWidth: 100,
+  importOrder: [
+    '^react$',
+    '^(?!^react$|^@/?.*$|^~/.*$|^../.*$|^./.*$)',
+    '^@(.*)$',
+    '^~/(.*)$',
+    '^../(.*)$',
+    '^./(.*)$',
+  ],
+  importOrderSeparation: false,
+  importOrderSortSpecifiers: true,
+  tailwindConfig: './tailwind.config.js',
+};

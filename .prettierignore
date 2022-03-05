@@ -1,0 +1,18 @@
+node_modules
+**/*.md
+**/*.d.ts
+prettier.config.js
+
+# test
+coverage
+
+# next.js
+.next/
+out/
+build
+
+# Vite
+dist/
+
+# turborepo
+.turbo
